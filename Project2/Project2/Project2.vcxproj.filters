@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\opencv1\opencv1\try.cpp">
+    <ClCompile Include="try.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
