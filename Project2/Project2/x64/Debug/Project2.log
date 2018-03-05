@@ -1,0 +1,19 @@
+﻿Build started 3/4/2018 4:59:22 PM.
+     1>Project "C:\Users\ip vision\source\repos\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\OpenCV-3.4.0\build\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\opencv1\opencv1\try.cpp
+         try.cpp
+     1>..\..\opencv1\opencv1\try.cpp(15): warning C4101: 'c' : unreferenced local variable
+     1>..\..\opencv1\opencv1\try.cpp(15): warning C4101: 'm' : unreferenced local variable
+     1>..\..\opencv1\opencv1\try.cpp(50): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\opencv1\opencv1\try.cpp(51): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\opencv1\opencv1\try.cpp(86): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>..\..\opencv1\opencv1\try.cpp(88): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ip vision\source\repos\Project2\x64\Debug\Project2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenCV-3.4.0\build\x64\vc14\lib" opencv_world340d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\ip vision\source\repos\Project2\x64\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ip vision\source\repos\Project2\x64\Debug\Project2.lib" /MACHINE:X64 x64\Debug\try.obj
+         Project2.vcxproj -> C:\Users\ip vision\source\repos\Project2\x64\Debug\Project2.exe
+     1>Done Building Project "C:\Users\ip vision\source\repos\Project2\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89
